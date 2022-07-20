@@ -1,6 +1,7 @@
 from django.db import models
-from annotations import Annotations
-from selections import Selections
+#from annotations import Annotations
+#from selections import Selections
+#from data_models import MetaTable, GRNTable, StructTable, GeneTable
 
 # Create your models here.
 

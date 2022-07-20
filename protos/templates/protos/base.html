@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header -->
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+</head>
+
+<!-- selection UI (menu on the left) -->
+
+<!-- content -->
+<body>
+<div class="container" id="content">
+    {% block content %}{%  endblock %}
+</div>
+</body>
+
+
+<!-- jQuery may be required for 3dmol -->
+<script src="{% static 'home/js/jquery-3.1.1.min.js' %}"></script>
+<script src="{% static 'home/js/jquery-ui.min.js' %}"></script>
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'bootstrap/js/bootstrap-submenu.js' %}"></script>
+<script src="{% static 'home/js/navbar-autocomplete.js' %}"></script>
+<script src="{% static 'home/js/svg-pan-zoom.min.js' %}"></script>
+<script src="{% static 'home/js/bootstrap-treeview.min.js' %}"></script>
+<script src="{% static 'home/js/papaparse.min.js' %}"></script>
+<script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+
+</html>
